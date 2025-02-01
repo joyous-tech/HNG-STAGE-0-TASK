@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  }
+  
+  .profile-card {
+    background-color: rgba(168, 235, 18, 0.1);
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, );
+    margin: 5px 0;
+  }
+  
+  .social-links {
+    margin: 15px 0;
+  }
+  .social-links img{
+    height: 1.5em;
+    
+  }
+  .social-links a {
+    text-decoration: none;
+    color: #0073b1;
+    margin: 0 10px;
+    font-size: 14px;
+    transition: all 5s;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 600px) {
+    .profile-card {
+      max-width: 90%;
+    }
+  }
